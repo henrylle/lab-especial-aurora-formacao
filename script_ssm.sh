@@ -1,0 +1,1 @@
+aws ssm start-session --target ID_PORTEIRO --document-name AWS-StartPortForwardingSessionToRemoteHost --parameters '{"host":["'RDS_HOST'"],"portNumber":["'5432'"],"localPortNumber":["'5435'"]}' --profile bia-tf
